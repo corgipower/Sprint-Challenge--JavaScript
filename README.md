@@ -26,13 +26,28 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. Briefly compare and contrast `.forEach` & `.map` (2-3 sentences max)
 
+.forEach doesn't return anything, it just executes a function on each item in the array.
+.map returns a new array
+
 2. Explain the difference between a callback and a higher order function.
+
+A higher order function accepts a function as an argument.
+A callback function is passed to the higher order function.
 
 3. What is closure?
 
+A function plus the variables it can access.
+
 4. Describe the four rules of the 'this' keyword.
 
+  1. Window - "this" refers to the Window object
+  2. Implicit - "this" refers to whatever is to the left of the dot when invoked
+  3. Explicit - "this" refers to what's passed into call, apply or bind
+  4. new - "this" refers to the instance created from a constructor
+
 5. Why do we need super() in an extended class?
+
+super is used to access the parent's constructor and methods.
 
 ### Task 1 - Project Set up
 
